@@ -1,11 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <link rel="stylesheet" href="style.css" />
-    <title>My Personal Website</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    <script src="script.js"></script>
-  </body>
+<html>
+<head>
+  <title>Japanese Pitch Accent Flashcards</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" >
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <h1>Japanese Pitch Accent App!</h1>
+  <p>On this site you can learn how to speak Japanese words as a native speaker does, with correct pitch accent. </p>
+  
+  <p>Studying correct pitch accent will allow you to lose the "foreign accent" over time and will also greatly improve your listening comprehension.</p>
+    
+  <p>These flashcards that are shown to you using a spaced-repetition system (If you know the answer, you'll see the card less often, whereas if you mark it wrong, you'll see it again soon). Spaced repetition is a well-studied, proven system for absorbing and retaining new knowledge rapidly.</p>
+
+  <div class = term>
+    ここにクリックして進む
+  </div>
+
+  <div class = accent>
+    高低アクセント
+    </div>
+
+   <div class = checkAccent>
+    <button>高低アクセントをチェックする
+    </button>
+    </div>
+ 
+    <div class = nextButton>
+      <button>Next Item</button>
+    </div>
+
+    <br>
+  <div>
+    <button class = forgot>Forgot</button>
+    <button class = hard>Hard</button>
+    <button class = gotIt>Got It!</button>
+  </div>
+<br>
+ 
+  
+
+  <div class="grid-container">
+  <div class="grid-item1"><button>Definition
+    </button></div>
+  <div class="grid-item2"><button>Examples
+    </button></div>
+  <div class="grid-item2"><button>Character Meanings
+    </button></div>
+</div>
+
+<h3>Pattern Examples</h3>
+<br>
+<p>Atamadaka: <span class = "high-tone">きゅ</span><span class ="low-tone">うしゅう</span></p>
+
+  <script src="script.js"></script>
+  <script src="accentMarkerCode.js"></script>
+</body>
 </html>
